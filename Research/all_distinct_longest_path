@@ -1,0 +1,175 @@
+	species	cycle 	
+	species	class	subphylum	
+	species	order	subphylum	
+	species	superclass	subphylum	
+	species	family	order	subphylum	
+	species	subclass	class	subphylum	
+	species	class	superclass	subphylum	
+	species	order	superclass	subphylum	
+	species	genus	family	order	subphylum	
+	species	order	subclass	class	subphylum	
+	species	order	class	superclass	subphylum	
+	species	family	order	superclass	subphylum	
+	species	genus	family	superclass	subphylum	
+	species	order	superorder	superclass	subphylum	
+	species	superorder	class	superclass	subphylum	
+	species	genus	subfamily	family	order	subphylum	
+	species	family	order	class	superclass	subphylum	
+	species	order	infraclass	subclass	class	subphylum	
+	species	order	subclass	class	superclass	subphylum	
+	species	order	superorder	subclass	class	subphylum	
+	species	family	suborder	order	superclass	subphylum	
+	species	genus	family	order	subclass	class	subphylum	
+	species	order	superorder	class	superclass	subphylum	
+	species	infraclass	subclass	class	superclass	subphylum	
+	species	superorder	infraclass	subclass	class	subphylum	
+	species	family	order	infraclass	subclass	class	subphylum	
+	species	family	order	superorder	subclass	class	subphylum	
+	species	genus	family	superorder	subclass	class	subphylum	
+	species	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	order	superclass	subphylum	
+	species	genus	infraclass	subclass	class	superclass	subphylum	
+	species	order	infraclass	subclass	class	superclass	subphylum	
+	species	order	superorder	infraclass	subclass	class	subphylum	
+	species	suborder	order	superorder	class	superclass	subphylum	
+	species	family	infraclass	subclass	class	superclass	subphylum	
+	species	family	suborder	superorder	class	superclass	subphylum	
+	species	family	parvorder	order	superorder	superclass	subphylum	
+	species	family	superfamily	suborder	order	superclass	subphylum	
+	species	genus	family	order	infraclass	subclass	class	subphylum	
+	species	genus	family	order	superorder	subclass	class	subphylum	
+	species	family	superfamily	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	order	class	superclass	subphylum	
+	species	family	suborder	order	subclass	class	superclass	subphylum	
+	species	family	order	infraclass	subclass	class	superclass	subphylum	
+	species	family	suborder	order	superorder	class	superclass	subphylum	
+	species	genus	family	superorder	infraclass	subclass	class	subphylum	
+	subspecies	species	genus	family	suborder	order	superclass	subphylum	
+	species	subfamily	family	order	superorder	class	superclass	subphylum	
+	species	superfamily	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	order	superclass	subphylum	
+	species	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	family	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	superorder	class	superclass	subphylum	
+	species	family	superfamily	order	superorder	class	superclass	subphylum	
+	species	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	species	family	infraorder	suborder	superorder	class	superclass	subphylum	
+	species	genus	subfamily	family	order	superorder	subclass	class	subphylum	
+	species	subfamily	family	superfamily	suborder	order	superclass	subphylum	
+	species	genus	family	superfamily	order	superorder	subclass	class	subphylum	
+	subspecies	species	genus	subfamily	family	order	class	superclass	subphylum	
+	species	family	superfamily	infraorder	order	superorder	superclass	subphylum	
+	species	genus	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	order	superorder	class	superclass	subphylum	
+	species	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	genus	subfamily	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	family	order	infraclass	subclass	class	superclass	subphylum	
+	species	genus	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	species	genus	subfamily	family	infraclass	subclass	class	superclass	subphylum	
+	species	subfamily	family	order	infraclass	subclass	class	superclass	subphylum	
+	species	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	species	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	suborder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	suborder	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	order	superorder	class	superclass	subphylum	
+	species	family	superfamily	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	parvorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	suborder	order	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	order	superorder	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superorder	class	superclass	subphylum	
+	species	infraorder	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	subgenus	subfamily	family	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	family	infraorder	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	order	superorder	superclass	subphylum	
+	species	subfamily	family	infraorder	suborder	superorder	class	superclass	subphylum	
+	species	subgenus	genus	family	order	infraclass	subclass	class	superclass	subphylum	
+	species	genus	subfamily	family	order	superorder	infraclass	subclass	class	subphylum	
+	subspecies	species	genus	family	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	order	superorder	infraclass	subclass	class	subphylum	
+	subspecies	species	genus	family	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	family	order	superorder	class	superclass	subphylum	
+	species	subfamily	family	superfamily	infraorder	order	superorder	superclass	subphylum	
+	species	subgenus	genus	family	superfamily	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	order	superorder	class	superclass	subphylum	
+	species	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	species	family	infraorder	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	order	superorder	class	superclass	subphylum	
+	species	family	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	species	family	superfamily	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	suborder	order	superorder	superclass	subphylum	
+	subspecies	genus	subfamily	family	superfamily	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	infraorder	suborder	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superfamily	suborder	order	superclass	subphylum	
+	species	family	superfamily	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	tribe	subfamily	family	suborder	order	subclass	class	superclass	subphylum	
+	subspecies	species	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	subfamily	superfamily	order	superorder	class	superclass	subphylum	
+	species	subgenus	genus	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	subfamily	family	infraorder	suborder	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	parvorder	order	superorder	superclass	subphylum	
+	species	tribe	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	tribe	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	suborder	order	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	tribe	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	species	genus	subfamily	family	superfamily	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	species	species group	genus	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	species	subfamily	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superfamily	order	superorder	class	superclass	subphylum	
+	subspecies	genus	subfamily	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	suborder	order	subclass	class	superclass	subphylum	
+	subspecies	genus	family	superfamily	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	infraorder	suborder	superorder	class	superclass	subphylum	
+	species	family	superfamily	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	species	subfamily	family	superfamily	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	species	subgenus	tribe	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	genus	tribe	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	subgenus	genus	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superfamily	infraorder	order	superorder	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	superfamily	order	superorder	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	subfamily	family	suborder	order	superorder	class	superclass	subphylum	
+	species	subgenus	genus	subfamily	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	infraorder	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	family	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	subfamily	family	superfamily	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	species	species group	genus	subfamily	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	species	subgenus	genus	tribe	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	species	subgenus	genus	subfamily	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	superfamily	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	subfamily	family	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	species	species group	genus	tribe	subfamily	family	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	infraorder	suborder	order	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	family	superfamily	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	
+	subspecies	species	genus	subfamily	family	superfamily	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	genus	tribe	subfamily	family	suborder	order	superorder	infraclass	subclass	class	superclass	subphylum	
+	subspecies	species	subgenus	genus	subfamily	family	parvorder	infraorder	suborder	order	superorder	class	superclass	subphylum	

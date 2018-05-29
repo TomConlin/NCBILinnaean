@@ -1,0 +1,57 @@
+	82066
+genus	family	suborder	order	cycle 	84
+subspecies	species	genus	tribe	subfamily	family	suborder	order	cycle 	120
+family	suborder	order	cycle 	27
+no rank	species	genus	subfamily	family	no rank	suborder	order	cycle 	5
+species	no rank	genus	family	suborder	order	cycle 	22
+subspecies	species	genus	subfamily	family	superfamily	suborder	order	cycle 	42
+no rank	no rank	family	cycle no rank	1
+species	genus	family	no rank	suborder	order	cycle 	4
+no rank	family	superfamily	suborder	order	cycle 	1
+order		1
+no rank	family	suborder	order	cycle 	1
+genus	subfamily	family	no rank	suborder	order	cycle 	300
+subspecies	species	genus	family	suborder	order	cycle 	180
+no rank	family	no rank	suborder	order	cycle 	1
+subspecies	genus	tribe	subfamily	family	suborder	order	cycle 	3
+subfamily	family	suborder	order	cycle 	11
+no rank	species	genus	tribe	subfamily	family	suborder	order	cycle 	2
+subfamily	family	no rank	suborder	order	cycle 	19
+genus	tribe	subfamily	family	suborder	order	cycle 	55
+species	genus	subfamily	family	suborder	order	cycle 	84
+species	no rank	subfamily	family	cycle no rank	6
+genus	subfamily	family	suborder	order	cycle 	14
+no rank	subfamily	family	no rank	suborder	order	cycle 	4
+no rank	genus	family	suborder	order	cycle 	1
+no rank	suborder	order	cycle 	1
+species	subfamily	family	suborder	order	cycle 	1
+species	subgenus	genus	subfamily	family	no rank	suborder	order	cycle 	40
+genus	family	no rank	suborder	order	cycle 	1
+species	genus	subfamily	family	superfamily	suborder	order	cycle 	52
+genus	subfamily	family	superfamily	suborder	order	cycle 	16
+subgenus	genus	subfamily	family	no rank	suborder	order	cycle 	4
+species	genus	subfamily	family	no rank	suborder	order	cycle 	1577
+superfamily	suborder	order	cycle 	1
+species	genus	no rank	family	cycle no rank	1
+no rank	genus	subfamily	family	no rank	suborder	order	cycle 	8
+subspecies	species	genus	subfamily	family	no rank	suborder	order	cycle 	272
+species	no rank	order	cycle 	237
+suborder	order	cycle 	5
+tribe	subfamily	family	suborder	order	cycle 	8
+species	genus	family	suborder	order	cycle 	359
+species	subfamily	family	no rank	suborder	order	cycle 	3
+subspecies	genus	subfamily	family	no rank	suborder	order	cycle 	1
+species	no rank	genus	subfamily	family	cycle no rank	113
+subfamily	family	superfamily	suborder	order	cycle 	6
+species	no rank	family	suborder	order	cycle 	1
+species	no rank	family	cycle no rank	3
+family	no rank	suborder	order	cycle 	6
+species	genus	tribe	subfamily	family	suborder	order	cycle 	260
+subspecies	species	subgenus	genus	subfamily	family	no rank	suborder	order	cycle 	20
+species	no rank	cycle no rank	53
+species	no rank	family	superfamily	suborder	order	cycle 	1
+subspecies	species	genus	subfamily	family	suborder	order	cycle 	50
+no rank	order	cycle 	1
+genus	no rank	family	cycle no rank	1
+family	superfamily	suborder	order	cycle 	1
+no rank	no rank	genus	subfamily	family	cycle no rank	1

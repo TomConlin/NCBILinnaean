@@ -1,0 +1,7 @@
+# .gitignore
+*~
+*.pyc
+data/*
+out/*
+Research/*.dmp
+

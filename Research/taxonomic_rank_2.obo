@@ -1,0 +1,235 @@
+format-version: 1.2
+date: 28:05:2009 15:41
+auto-generated-by: OBO-Edit 2.0
+default-namespace: taxonomic_rank
+
+[Term]
+id: TAXRANK:0000000
+name: taxonomic_rank
+
+[Term]
+id: TAXRANK:0000001
+name: phylum
+synonym: "division" EXACT []
+xref: NCBITaxon:phylum
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000002
+name: class
+xref: NCBITaxon:class
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000003
+name: order
+xref: NCBITaxon:order
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000004
+name: family
+xref: NCBITaxon:family
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000005
+name: genus
+xref: NCBITaxon:genus
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000006
+name: species
+xref: NCBITaxon:species
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000007
+name: subclass
+xref: NCBITaxon:subclass
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000008
+name: subphylum
+xref: NCBITaxon:subphylum
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000009
+name: subgenus
+xref: NCBITaxon:subgenus
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000010
+name: species_group
+xref: NCBITaxon:species_group
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000011
+name: species_subgroup
+xref: NCBITaxon:species_subgroup
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000012
+name: species_complex
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000013
+name: infraorder
+xref: NCBITaxon:infraorder
+is_a: TAXRANK:0000000 ! taxonomic_rank
+
+[Term]
+id: TAXRANK:0000014
+name: suborder
+xref: NCBITaxon:suborder
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000015
+name: superclass
+xref: NCBITaxon:superclass
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000016
+name: varietas
+xref: NCBITaxon:varietas
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000017
+name: kingdom
+xref: NCBITaxon:kingdom
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000018
+name: superfamily
+xref: NCBITaxon:superfamily
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000019
+name: infraclass
+xref: NCBITaxon:infraclass
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000020
+name: superorder
+xref: NCBITaxon:superorder
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000021
+name: parvorder
+xref: NCBITaxon:parvorder
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000022
+name: superkingdom
+xref: NCBITaxon:superkingdom
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000023
+name: subspecies
+xref: NCBITaxon:subspecies
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000024
+name: subfamily
+xref: NCBITaxon:subfamily
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000025
+name: tribe
+xref: NCBITaxon:tribe
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000026
+name: forma
+xref: NCBITaxon:forma
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+
+[Term]
+id: TAXRANK:0000027
+name: superphylum
+xref: NCBITaxon:superphylum
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000028
+name: subtribe
+xref: NCBITaxon:subtribe
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000029
+name: subkingdom
+xref: NCBITaxon:subkingdom
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000030
+name: section
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Term]
+id: TAXRANK:0000031
+name: series
+is_a: TAXRANK:0000000 ! taxonomic_rank
+created_by: pmidford
+creation_date: 2008-04-01T04:59:00Z
+
+[Typedef]
+id: TAXRANK:has_rank
+name: has_rank
+alt_id: TAXRANK:0000033
+comment: A metadata relation more or less equivalent to the similar relation in NCBI taxonomy.
+is_metadata_tag: true
+

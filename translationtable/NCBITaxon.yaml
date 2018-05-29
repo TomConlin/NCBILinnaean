@@ -1,0 +1,57 @@
+---
+# mostly from:  
+# https://en.wikipedia.org/wiki/Glossary_of_scientific_naming
+# and NCBI Taxon database dumps
+
+# part of an individual
+# 		'biospecimen':			'Biological_specimen'
+####################################################
+# individual
+#		'specimen':			'Zoological_specimen'
+# 		'organism':			'Organism'
+#############################################
+# other names for subspecies
+# 	'strain': 			'Strain_(biology)'
+#	'breed':			'Breed'
+#	'cultivar':			'Cultivar'
+#	'hybrid':			'Hybrid_(biology)'
+#	'landrace':			'Landrace'
+
+# mostly taxa observed in NCBI 
+'forma':        'Form_(botany)'
+'varietas':     'Variety_(botany)'
+'subspecies':   'Subspecies'
+'species':      'Species'
+'species subgroup': 'Species_complex#subgroup'
+'species group':    'Species_complex#group'
+'subgenus':     'Subgenus'
+'genus':        'Genus'
+'subtribe':     'Subtribe'
+'tribe':        'Tribe_(biology)'
+'supertribe':   'Supertribe'
+'subfamily':    'Subfamily'
+'family':       'Family_(biology)'
+'superfamily':  'Superfamily_(taxonomy)'
+'parvorder':    'Order_(biology)#parvorder'
+'infraorder':   'Order_(biology)#infraorder'
+'suborder':     'Order_(biology)#suborder'
+'order':        'Order_(biology)'
+'superorder':   'Order_(biology)#superorder'
+'magnorder':    'Order_(biology)'
+'cohort':       'Cohort_(taxonomy)'
+'legion':       'Legion_(taxonomy)'
+'parvclass':    'Class_(biology)#parvclass'
+'infraclass':   'Class_(biology)#infraclass'
+'subclass':     'Class_(biology)#subclass'
+'class':        'Class_(biology)'
+'superclass':   'Class_(biology)#superclass'
+'microphylum':  'Microphylum'
+'infraphylum':  'Infraphylum'
+'subphylum':    'Subphylum'
+'phylum':       'Phylum'
+'superphylum':  'Superphylum'
+'infrakingdom': 'Infrakingdom'
+'subkingdom':   'Subkingdom'
+'kingdom':      'Kingdom_(biology)'
+'superkingdom': 'Domain_(biology)'
+# 'root':         'NCBIroot'  

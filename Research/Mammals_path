@@ -1,0 +1,137 @@
+order	superorder	no rank	cycle no rank	14
+	80450
+no rank	family	order	no rank	superorder	cycle no rank	1
+family	order	no rank	cycle no rank	21
+family	order	superorder	no rank	cycle no rank	18
+species	genus	family	suborder	no rank	superorder	cycle no rank	10
+genus	family	superorder	no rank	cycle no rank	1
+family	no rank	superorder	cycle no rank	1
+species	no rank	genus	family	suborder	order	superorder	cycle no rank	109
+subgenus	genus	family	order	superorder	no rank	cycle no rank	7
+genus	family	order	superorder	no rank	cycle no rank	62
+species	genus	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	325
+genus	family	suborder	no rank	superorder	cycle no rank	4
+no rank	no rank	superorder	cycle no rank	1
+no rank	order	no rank	cycle no rank	1
+species	subgenus	genus	family	order	superorder	no rank	cycle no rank	12
+family	order	no rank	class	cycle 	2
+species	genus	subfamily	family	superorder	no rank	cycle no rank	57
+subfamily	family	order	superorder	no rank	cycle no rank	5
+no rank	family	infraorder	suborder	no rank	superorder	cycle no rank	1
+order	no rank	class	cycle 	1
+species	family	infraorder	suborder	no rank	superorder	cycle no rank	3
+subspecies	species	genus	family	superorder	no rank	cycle no rank	1
+species	no rank	genus	subfamily	family	infraorder	suborder	cycle no rank	10
+superorder	no rank	cycle no rank	4
+genus	family	infraorder	suborder	no rank	superorder	cycle no rank	7
+species	family	suborder	order	no rank	superorder	cycle no rank	2
+no rank	genus	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	2
+no rank	family	suborder	order	no rank	superorder	cycle no rank	1
+no rank	genus	family	infraorder	no rank	superorder	cycle no rank	1
+species	no rank	genus	family	infraorder	cycle no rank	7
+subspecies	species	genus	family	order	superorder	no rank	cycle no rank	54
+species	no rank	class	cycle 	4
+no rank	no rank	class	cycle 	2
+subspecies	species	genus	subfamily	family	order	no rank	cycle no rank	8
+no rank	species	genus	family	infraorder	suborder	no rank	superorder	cycle no rank	1
+genus	no rank	family	suborder	order	superorder	cycle no rank	4
+species	no rank	family	infraorder	suborder	cycle no rank	1
+species	no rank	family	suborder	cycle no rank	1
+species	no rank	family	suborder	order	cycle no rank	1
+no rank	family	suborder	no rank	superorder	cycle no rank	1
+no rank	superorder	no rank	cycle no rank	2
+subspecies	species	genus	family	suborder	order	no rank	superorder	cycle no rank	16
+species	genus	no rank	family	suborder	order	superorder	cycle no rank	51
+species	genus	subfamily	family	order	superorder	no rank	cycle no rank	388
+species	subfamily	family	suborder	order	superorder	no rank	cycle no rank	2
+family	infraorder	suborder	no rank	superorder	cycle no rank	6
+no rank	no rank	cycle no rank	1
+subspecies	species	genus	family	suborder	no rank	superorder	cycle no rank	12
+family	suborder	order	no rank	superorder	cycle no rank	13
+species	no rank	suborder	order	superorder	cycle no rank	1
+no rank	suborder	order	superorder	no rank	cycle no rank	1
+no rank	family	order	superorder	no rank	cycle no rank	2
+genus	subfamily	family	order	superorder	no rank	cycle no rank	35
+species	no rank	family	order	superorder	cycle no rank	3
+family	suborder	no rank	superorder	cycle no rank	1
+subspecies	species	genus	family	infraorder	no rank	superorder	cycle no rank	16
+family	superorder	no rank	cycle no rank	2
+species	genus	family	order	no rank	superorder	cycle no rank	115
+no rank	subfamily	family	suborder	order	superorder	no rank	cycle no rank	1
+no rank	genus	family	suborder	order	superorder	no rank	cycle no rank	4
+species	genus	family	infraorder	suborder	no rank	superorder	cycle no rank	25
+suborder	order	no rank	superorder	cycle no rank	2
+tribe	no rank	subfamily	family	suborder	order	superorder	cycle no rank	3
+species	genus	family	no rank	superorder	cycle no rank	2
+species	no rank	genus	subfamily	family	order	cycle no rank	3
+subspecies	species	genus	tribe	no rank	subfamily	family	suborder	order	superorder	cycle no rank	2
+suborder	no rank	superorder	cycle no rank	2
+no rank	class	cycle 	3
+genus	subfamily	family	superorder	no rank	cycle no rank	19
+no rank	species	genus	family	order	no rank	cycle no rank	2
+subspecies	species	genus	family	order	no rank	cycle no rank	64
+species	family	suborder	order	superorder	no rank	cycle no rank	1
+subspecies	species	genus	family	infraorder	suborder	no rank	superorder	cycle no rank	8
+no rank	family	suborder	order	superorder	no rank	cycle no rank	7
+subspecies	species	genus	family	suborder	order	superorder	no rank	cycle no rank	183
+no rank	genus	subfamily	family	suborder	order	superorder	no rank	cycle no rank	2
+infraorder	no rank	superorder	cycle no rank	1
+subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	13
+genus	family	order	no rank	cycle no rank	80
+no rank	order	no rank	superorder	cycle no rank	2
+species	no rank	genus	family	order	superorder	cycle no rank	87
+family	suborder	order	superorder	no rank	cycle no rank	40
+subspecies	species	genus	subfamily	family	suborder	order	superorder	no rank	cycle no rank	110
+species	family	order	no rank	cycle no rank	2
+genus	family	order	no rank	class	cycle 	3
+species	genus	tribe	no rank	subfamily	family	suborder	order	superorder	cycle no rank	20
+species	genus	family	order	no rank	cycle no rank	251
+family	order	no rank	superorder	cycle no rank	2
+species	no rank	order	superorder	cycle no rank	304
+subfamily	family	superorder	no rank	cycle no rank	6
+genus	subfamily	family	order	no rank	cycle no rank	18
+genus	family	suborder	order	no rank	superorder	cycle no rank	40
+subspecies	species	genus	subfamily	family	order	superorder	no rank	cycle no rank	47
+genus	family	no rank	superorder	cycle no rank	2
+species	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	1
+genus	family	order	no rank	superorder	cycle no rank	12
+species	no rank	genus	subfamily	family	suborder	order	superorder	cycle no rank	4
+no rank	genus	subfamily	family	order	no rank	cycle no rank	1
+no rank	species	genus	family	suborder	order	no rank	superorder	cycle no rank	1
+genus	tribe	no rank	subfamily	family	suborder	order	superorder	cycle no rank	6
+species	genus	family	suborder	order	no rank	superorder	cycle no rank	139
+suborder	order	superorder	no rank	cycle no rank	6
+species	genus	family	superorder	no rank	cycle no rank	2
+subspecies	species	subgenus	genus	family	order	superorder	no rank	cycle no rank	18
+subspecies	species	genus	family	order	no rank	class	cycle 	1
+subspecies	species	genus	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	266
+species	genus	subfamily	family	suborder	order	superorder	no rank	cycle no rank	633
+order	no rank	superorder	cycle no rank	2
+subspecies	species	genus	family	no rank	superorder	cycle no rank	1
+genus	subfamily	family	suborder	order	superorder	no rank	cycle no rank	159
+subspecies	genus	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	1
+species	no rank	cycle no rank	4
+genus	subfamily	family	infraorder	suborder	no rank	superorder	cycle no rank	72
+subfamily	family	order	no rank	cycle no rank	2
+species	no rank	family	suborder	order	superorder	cycle no rank	10
+species	genus	family	infraorder	no rank	superorder	cycle no rank	21
+species	family	order	superorder	no rank	cycle no rank	1
+species	genus	family	order	superorder	no rank	cycle no rank	206
+genus	family	infraorder	no rank	superorder	cycle no rank	10
+subfamily	family	suborder	order	superorder	no rank	cycle no rank	30
+no rank	genus	family	order	superorder	no rank	cycle no rank	3
+subspecies	species	genus	family	order	no rank	superorder	cycle no rank	46
+family	infraorder	no rank	superorder	cycle no rank	2
+infraorder	suborder	no rank	superorder	cycle no rank	2
+species	no rank	order	cycle no rank	31
+genus	family	suborder	order	superorder	no rank	cycle no rank	174
+order	no rank	cycle no rank	9
+species	no rank	family	order	cycle no rank	1
+no rank	species	genus	family	suborder	order	superorder	no rank	cycle no rank	1
+subspecies	species	genus	no rank	family	suborder	order	superorder	cycle no rank	8
+species	genus	subfamily	family	order	no rank	cycle no rank	113
+species	genus	family	suborder	order	superorder	no rank	cycle no rank	890
+class		1
+species	genus	family	order	no rank	class	cycle 	5
+subspecies	species	genus	subfamily	family	superorder	no rank	cycle no rank	9
+no rank	order	superorder	no rank	cycle no rank	8
