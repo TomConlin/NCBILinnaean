@@ -1,5 +1,5 @@
 ---
-# mostly from:  
+# mostly from:
 # https://en.wikipedia.org/wiki/Glossary_of_scientific_naming
 # and NCBI Taxon database dumps
 
@@ -17,7 +17,7 @@
 #	'hybrid':			'Hybrid_(biology)'
 #	'landrace':			'Landrace'
 
-# mostly taxa observed in NCBI 
+# mostly taxa observed in NCBI
 'forma':        'Form_(botany)'
 'varietas':     'Variety_(botany)'
 'subspecies':   'Subspecies'
@@ -54,4 +54,5 @@
 'subkingdom':   'Subkingdom'
 'kingdom':      'Kingdom_(biology)'
 'superkingdom': 'Domain_(biology)'
-# 'root':         'NCBIroot'  
+'root':         'NCBIroot'
+
