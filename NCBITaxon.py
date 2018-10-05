@@ -10,10 +10,10 @@
     - there is a proper superset-subset relation between all Taxon subclasses
     - hence between instance chains of ncbi-txids.
 
-    The relation between lineage rank types "a part_of b"
+    The relation between lineage rank types "a part_of b" (partonomy)
     exists inedpendent of the data but is not useful to capture.
     ex: knowing genus is more general than species implies nothing
-    if their material instances are not related.
+    if their material instances are not related by being on the same path.
 
 
 
@@ -117,6 +117,9 @@ for txid in node_parent:
         node_ancestor_rank[txid] = node_rank[tpid]
     else:
         node_ancestor_rank[1] = "NCBIroot"
+
+
+
 
 g = rdflib.Graph()
 

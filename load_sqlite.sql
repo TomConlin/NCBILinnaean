@@ -25,8 +25,8 @@ create table rank_order(
 .import translationtable/rank_order.tab rank_order
 -- no index or keys; just a small cv table
 
-VACUUM;
-ANALYSE;
+VACUUM FULL;
+--ANALYSE;
 
 .print "howmany taxon loaded?\n"
 select  count(*) as tn_cnt from taxon_node;
@@ -410,7 +410,7 @@ WITH RECURSIVE subtree(parent_id, child_id, child_order) AS
     (SELECT tn_parent, tn_node, ro_order
 	  FROM taxon_node
 		JOIN rank_order ON ro_rank == tn_rank
-	   WHERE tn_parent = 33511
+	   WHERE tn_parent == 33511
 	 UNION
 	 SELECT tn_parent, tn_node, ro_order
 	  FROM taxon_node
@@ -426,8 +426,11 @@ SELECT distinct
 
 .timer off
 ------------------------------------
+
+
 .output out/taxon_dump.sql
 .dump
 .output stdout
+
 
 .save out/taxon_dump.db
