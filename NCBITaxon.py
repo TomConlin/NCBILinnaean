@@ -135,10 +135,9 @@ g.bind('dcterms', dcterms)
 g.bind('WIKI', WIKI)
 
 #######################################################
-# TBox (theory)
+# TBox (terminology)
 # concepts as subclass of Taxon
 # let concepts know their children (opposite direction of ABox)
-
 
 Taxon = WIKI.Taxon
 g.add([Taxon, rdflib.RDF.type, rdflib.RDFS.Class])
@@ -146,7 +145,6 @@ g.add([
     Taxon, rdflib.RDFS.comment,
     rdflib.Literal("Not a taxonomy. see: NCBI Taxon Database")])
 g.add([Taxon, rdflib.RDFS.label, rdflib.Literal("Taxon")])
-
 g.add([
     Taxon, rdflib.RDFS.subClassOf,
     rdflib.URIRef('http://www.w3.org/2002/07/owl#Thing')])

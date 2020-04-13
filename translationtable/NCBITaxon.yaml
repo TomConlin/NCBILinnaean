@@ -1,58 +1,66 @@
 ---
-# mostly from:
+# Mostly taxa observed in NCBI Taxon database dumps from:
+# ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+# with labels from existing URL at Wikipedia: 
 # https://en.wikipedia.org/wiki/Glossary_of_scientific_naming
-# and NCBI Taxon database dumps
+# Structured here, from top to bottom, as a partonomy/meronomy.
+# hence  <higher-taxon> <HAS-A> <lower-taxon>
+# if possible, keep the list below 63 items
+# Do not re-order unless you really mean to. 
+
+'root':         'NCBIroot'
+'superkingdom': 'Domain_(biology)'
+'kingdom':      'Kingdom_(biology)'
+'subkingdom':   'Subkingdom'
+'infrakingdom': 'Infrakingdom'
+'superphylum':  'Superphylum'
+'phylum':       'Phylum'
+'subphylum':    'Subphylum'
+'infraphylum':  'Infraphylum'
+'microphylum':  'Microphylum'
+'superclass':   'Class_(biology)#superclass'
+'class':        'Class_(biology)'
+'subclass':     'Class_(biology)#subclass'
+'infraclass':   'Class_(biology)#infraclass'
+'parvclass':    'Class_(biology)#parvclass'
+'legion':       'Legion_(taxonomy)'
+'cohort':       'Cohort_(taxonomy)#Subcohort'
+'subcohort':    'Cohort_(taxonomy)'
+'magnorder':    'Order_(biology)#magnorder'
+'superorder':   'Order_(biology)#superorder'
+'order':        'Order_(biology)'
+'suborder':     'Order_(biology)#suborder'
+'infraorder':   'Order_(biology)#infraorder'
+'parvorder':    'Order_(biology)#parvorder'
+'superfamily':  'Superfamily_(taxonomy)'
+'family':       'Family_(biology)'
+'subfamily':    'Subfamily'
+'supertribe':   'Supertribe'
+'tribe':        'Tribe_(biology)'
+'subtribe':     'Subtribe'
+'genus':        'Genus'
+'subgenus':     'Subgenus'
+'species group':    'Species_complex#group'
+'species subgroup': 'Species_complex#subgroup'
+'species':      'Species'
+'subspecies':   'Subspecies'
+'varietas':     'Variety_(botany)'
+'forma':        'Form_(botany)'
+
+# other names for subspecies
+##############################################
+#	'landrace':			'Landrace'
+#	'hybrid':			'Hybrid_(biology)'
+#	'cultivar':			'Cultivar'
+#	'breed':			'Breed'
+#	'strain':			'Strain_(biology)'
+
+# individual
+##############################################
+#	'organism':		    'Organism'
+#	'specimen':		    'Zoological_specimen'
 
 # part of an individual
-# 		'biospecimen':			'Biological_specimen'
-####################################################
-# individual
-#		'specimen':			'Zoological_specimen'
-# 		'organism':			'Organism'
 #############################################
-# other names for subspecies
-# 	'strain': 			'Strain_(biology)'
-#	'breed':			'Breed'
-#	'cultivar':			'Cultivar'
-#	'hybrid':			'Hybrid_(biology)'
-#	'landrace':			'Landrace'
-
-# mostly taxa observed in NCBI
-'forma':        'Form_(botany)'
-'varietas':     'Variety_(botany)'
-'subspecies':   'Subspecies'
-'species':      'Species'
-'species subgroup': 'Species_complex#subgroup'
-'species group':    'Species_complex#group'
-'subgenus':     'Subgenus'
-'genus':        'Genus'
-'subtribe':     'Subtribe'
-'tribe':        'Tribe_(biology)'
-'supertribe':   'Supertribe'
-'subfamily':    'Subfamily'
-'family':       'Family_(biology)'
-'superfamily':  'Superfamily_(taxonomy)'
-'parvorder':    'Order_(biology)#parvorder'
-'infraorder':   'Order_(biology)#infraorder'
-'suborder':     'Order_(biology)#suborder'
-'order':        'Order_(biology)'
-'superorder':   'Order_(biology)#superorder'
-'magnorder':    'Order_(biology)'
-'cohort':       'Cohort_(taxonomy)'
-'legion':       'Legion_(taxonomy)'
-'parvclass':    'Class_(biology)#parvclass'
-'infraclass':   'Class_(biology)#infraclass'
-'subclass':     'Class_(biology)#subclass'
-'class':        'Class_(biology)'
-'superclass':   'Class_(biology)#superclass'
-'microphylum':  'Microphylum'
-'infraphylum':  'Infraphylum'
-'subphylum':    'Subphylum'
-'phylum':       'Phylum'
-'superphylum':  'Superphylum'
-'infrakingdom': 'Infrakingdom'
-'subkingdom':   'Subkingdom'
-'kingdom':      'Kingdom_(biology)'
-'superkingdom': 'Domain_(biology)'
-'root':         'NCBIroot'
+#	'biospecimen':		'Biological_specimen'
 

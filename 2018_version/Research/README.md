@@ -20,6 +20,9 @@ tar -tvf taxdump.tar.gz
 -rw-r--r-- tm/tm     119664361 2018-05-11 12:20 nodes.dmp
 -rw-rw---- domrach/tm     2652 2006-06-13 12:04 readme.txt
 
+
+tar -xzf taxdump.tar.gz
+
 Will start with ID, name and structure
 
 limit divisions to non-micro fauna (for now)
@@ -303,4 +306,8 @@ txid,
  	division,
 	citation (pubmed|medline),
 	nearest_ancestor_rank_txid  (skipping no-rank txids) 
+
+
+
+
 

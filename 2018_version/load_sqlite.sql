@@ -1,4 +1,4 @@
-
+--
 
 
 -- drop table taxon_node;
@@ -19,8 +19,8 @@ create index tn_label_idx on taxon_node(tn_label);
 .timer off
 
 create table rank_order(
-	ro_order integer NOT NULL,
-	ro_rank varchar(30) not null
+	ro_order integer NOT NULL unique,
+	ro_rank varchar(30) not null unique
 );
 .import translationtable/rank_order.tab rank_order
 -- no index or keys; just a small cv table

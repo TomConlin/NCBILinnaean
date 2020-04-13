@@ -4,4 +4,8 @@
 data/*
 out/*
 Research/*.dmp
-
+Pipfile.lock
+2018_version/out/*
+ncbilinnean
+taxdump.tar.gz
+Viral/data/*

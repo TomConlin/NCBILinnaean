@@ -1,0 +1,93 @@
+
+#in sql exported `Viral/corona_host.tab`
+
+cut -f1 corona_host.tab|sort -u|tr '\n' ','|sed 's/.$//' > crona-virus.csv
+cut -f2 corona_host.tab|sort -u|tr '\n' ','|sed 's/.$//' > crona-host.csv
+
+
+
+there are online tree builders for ncbitaxon
+    ncbi taxon has one, nothing fancy
+    another (https://phylot.biobyte.de) wants an account for over ten taxon
+    biostars has https://www.biostars.org/p/103447/
+    there is a python 'ete3' library that looks interesting/extensive  
+
+
+# thanks Pierre Lindenbaum
+# wget https://raw.githubusercontent.com/lindenb/xslt-sandbox/master/stylesheets/bio/ncbi/taxon2dot.xsl  
+# EUTIL="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id="
+# xsltproc taxon2dot.xsl "$EUTIL"<(cat crona-virus.csv)
+# would have to address a little bit decay 
+
+
+# ETE3 is suprisingly on target. 
+# It would appear that I have partially duplicated their efforrs 
+# with putting ncbitaxon in sqlite. (although I address "no rank") 
+# and import arbitrary other tables having ETE@'s copy locally is going to be very handy.
+
+Citation:
+----------------------------------------------------------------------------------------
+ETE 3: Reconstruction, analysis and visualization of phylogenomic data.
+Jaime Huerta-Cepas, Francois Serra and Peer Bork.
+Mol Biol Evol 2016; doi: 10.1093/molbev/msw046 
+----------------------------------------------------------------------------------------
+
+ 
+ete3 ncbiquery --search coronaviridae --tree --collapse_subspecies | ete3 view --text
+
+
+tr ',' '\n' <Viral/crona-host.csv |
+    ete3 ncbiquery  --tree --collapse_subspecies | ete3 view --text
+
+
+# Write a Newick tree to Graphviz dot converter  (in ./scripts/ete3_newick2dot.py)
+ 
+
+tr ',' '\n' <Viral/crona-host.csv|ete3 ncbiquery --tree --collapse_subspecies|
+    python scripts/ete3_newick2dot.py  > Viral/crona-host.gv
+
+# xdot Viral/crona-host.gv
+
+# extent the dot formater to a write mirrored tree  
+# expect I am going to see issues w/ one root
+
+tr ',' '\n' <Viral/crona-virus.csv|ete3 ncbiquery --tree --collapse_subspecies|
+    python scripts/ete3_newick2dot.py  -m > Viral/crona-virus.gv
+
+# xdot Viral/crona-virus.gv
+
+
+# need to stich host tree and corona virus tree them together with virus-host
+# awk '{print "txid_" $2 " -> txid_" $1 ";"}' Viral/corona_host.tab > Viral/host_viral_bridge.gv
+
+
+cat  <(tr -d '}' <Viral/crona-host.gv) Viral/host_viral_bridge.gv <(tail -n+2 Viral/crona-virus.gv) > Viral/host-crona-lattice.gv
+
+
+
+seem to have many more host-virus connections than I have either hosts or viruses.
+... possibly that  "--collapse_subspecies" flag  (... that is not it)
+
+
+######################################################################################
+####################################################################################
+
+# ncbiquery --tree
+# ncbiquery --full_lineage
+# ncbiquery --search
+# ncbiquery --full_lineage --collapse_subspecies 
+# ete3 ncbiquery --search coronaviridae | ../scripts/ete3_newick2dot.py -m > crona-virus.gv
+
+
+cut -f1 corona_host.tab|ete3 ncbiquery --tree | ../scripts/ete3_newick2dot.py -m > crona-virus.gv
+cut -f2 corona_host.tab|ete3 ncbiquery --tree --full_lineage| ../scripts/ete3_newick2dot.py > crona-host.gv
+awk '{print "txid_" $2 " -> txid_" $1 " [color=\"pink\", dirType=\"both\"];"}' corona_host.tab > host_corona.gv
+cat  <(tr -d '}' <crona-host.gv) host_corona.gv <(tail -n+2 crona-virus.gv) > host-crona-lattice.gv
+
+xdot host-crona-lattice.gv
+
+
+Hosts could root at Amonita but over all all looks like what I had in mind (but more).
+
+style="bold"
+
