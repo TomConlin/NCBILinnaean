@@ -57,7 +57,7 @@ takes more hours to return than I have have patience for
 (I think I let it run over night)
 and does not bode well for using it with similar tasks at this scale.
 
-### Third implementation (2018)
+### Third implementation (2018) redone in 2020
 
 Sqlite3/Postgres have common table expressions (CTE) which enable recursive SQL queries
 and I used them as a Jena SDB work-alike in a previous project.
@@ -88,7 +88,18 @@ Goals:
     - generate a more useful representation of "no rank" inernal nodes (interval based)
     - increase number of taxon to propagate. (not sure how far)
     
- 
+
+work is layed out in README_covid19.txt and Viral/README.host_corona_lattice
+Results I was interested in seeing are in Viral/
+
+The interesting that happened when I wanted to draw the trees is I came across the 
+"ETE3" python library that basicly does most of what I have already done here
+(in pretty much the same exact way. slurp ncbi into sqlite3 & index & query) 
+and ETE3 also does a whole lot more. 
+
+
+So it is most likely this repo will be archived and I will just use ETE3 instead. 
+
 
 
 

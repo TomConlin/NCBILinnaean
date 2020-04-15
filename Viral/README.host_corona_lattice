@@ -1,5 +1,5 @@
 
-#in sql exported `Viral/corona_host.tab`
+# in sql exported `Viral/corona_host.tab`
 
 cut -f1 corona_host.tab|sort -u|tr '\n' ','|sed 's/.$//' > crona-virus.csv
 cut -f2 corona_host.tab|sort -u|tr '\n' ','|sed 's/.$//' > crona-host.csv
@@ -61,7 +61,7 @@ tr ',' '\n' <Viral/crona-virus.csv|ete3 ncbiquery --tree --collapse_subspecies|
 # awk '{print "txid_" $2 " -> txid_" $1 ";"}' Viral/corona_host.tab > Viral/host_viral_bridge.gv
 
 
-cat  <(tr -d '}' <Viral/crona-host.gv) Viral/host_viral_bridge.gv <(tail -n+2 Viral/crona-virus.gv) > Viral/host-crona-lattice.gv
+cat <(tr -d '}' <Viral/crona-host.gv) Viral/host_viral_bridge.gv <(tail -n+2 Viral/crona-virus.gv) > Viral/host-crona-lattice.gv
 
 
 
@@ -71,7 +71,7 @@ seem to have many more host-virus connections than I have either hosts or viruse
 
 ######################################################################################
 ####################################################################################
-
+# trying various combinations of flags
 # ncbiquery --tree
 # ncbiquery --full_lineage
 # ncbiquery --search
@@ -87,7 +87,9 @@ cat  <(tr -d '}' <crona-host.gv) host_corona.gv <(tail -n+2 crona-virus.gv) > ho
 xdot host-crona-lattice.gv
 
 
-Hosts could root at Amonita but over all all looks like what I had in mind (but more).
+Hosts could root at Amniota but overall looks like what I had in mind (but more).
+
+
 
 style="bold"
 
