@@ -7,7 +7,7 @@ Basically interested in; given a taxon:
  - what is its (_approximate_) Rank.
  - what are its phylogenetic ancestors/decedents
  - what are its nearby neighbors
-    - [_grandmothers, aunts, mother, sisters, daughters, cousins, neices_]
+    - [_grandmothers, aunts, mother, sisters, daughters, cousins, nieces]
 
 Furthermore instead of including everything (over a million taxon),
 limit to a subtree along the human ancestor path,
